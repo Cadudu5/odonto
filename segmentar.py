@@ -76,6 +76,6 @@ if __name__ == "__main__":
 
             # Chama a função para segmentar a imagem
             # Você pode ajustar os parâmetros 'num_segmentos' e 'sigma' conforme sua necessidade
-            segmentar_imagem_por_superpixels(caminho_completo_entrada, caminho_completo_saida, num_segmentos=5000, sigma=4)
+            segmentar_imagem_por_superpixels(caminho_completo_entrada, caminho_completo_saida, num_segmentos=400, sigma=3)
 
         print("\nProcesso de segmentação concluído para todas as imagens.")
